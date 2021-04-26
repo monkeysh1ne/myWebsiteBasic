@@ -11,17 +11,24 @@
 
 </head>
 <body>
-  <header>
-    <h1>myWebsite</h1>
-  </header>
-  <nav>
-    <ul id="navigation">
-      <li><a href="#">link</a></li>
-      <li><a href="#">link</a></li>
-      <li><a href="#">link</a></li>
-      <li><a href="#">link</a></li>
-    </ul>
-  </nav>
+  <div class="navbar">
+    <div class="container">
+      <a href="#">my<span>Website</span></a>
+      <img id="mobile-cta" class="mobile-menu" src="img/hamburger-menu.svg" alt="open navigation">
+      <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="img/close-btn.svg" alt="close navigation">
+        <ul id="primary-nav">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <ul id="secondary-nav">
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="#" class="go-premium-cta">Go Premium</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <section class="welcome-hero">
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
   </section>
